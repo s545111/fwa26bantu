@@ -13,6 +13,7 @@ router.get('/', function(req, res, next) {
         res.write('Math.acosh() applied to '+Values1+' is '+Math.acosh(Values1))
         res.write('<br/>Math.log1p() applied to '+Values1+' is '+Math.log1p(Values1))
         res.write('<br/>Math.tan() applied to '+Values1+' is '+Math.tan(Values1))
+        res.write('<br/>Math.sqrt() applied to '+Values1+' is '+Math.sqrt(Values1))
         res.end()
       }
       values = values+1;
